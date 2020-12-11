@@ -1,8 +1,12 @@
-import Landing from "pages/Landing"
+import Landing from "pages/landing"
+
+import Auth from "pages/auth"
+
 import NoMatch from "pages/404"
 
 const Routes = [
-  Landing,
+  ...Landing,
+  Auth,
   NoMatch
 ]
 
